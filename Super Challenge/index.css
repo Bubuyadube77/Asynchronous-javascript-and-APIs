@@ -1,0 +1,72 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+  }
+  
+  .page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  
+  #upload-container {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .upload-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+  
+  .upload-sub {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  #submit-imgs {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  #submit-imgs:hover {
+    background: #f0f0f0;
+  }
+  
+  #img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  
+  #img-container img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    display: block;
+  }
